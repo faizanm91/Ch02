@@ -10,8 +10,8 @@ jobs:
       - name: Step one
         uses: actions/checkout@v2
       - name: Step two
-        run: env | sort 
-     job2: 
+        run: env | sort
+    job2: 
        name: Second Job        
        runs-on: windows-latest
        steps:
